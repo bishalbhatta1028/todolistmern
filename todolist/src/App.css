@@ -21,6 +21,10 @@ h2 {
   display: flex;
   justify-content: center;
 }
+.table {
+  border: 4px;
+  border-color: black;
+}
 
 .tabledata {
   display: flex;
@@ -29,6 +33,6 @@ h2 {
   text-align: left;
 }
 .data {
+  width: 8rem;
   background: aqua;
-  width: 100px;
 }

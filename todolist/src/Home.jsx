@@ -31,7 +31,7 @@ function Home() {
             {todos.length === 0 ? (
                 <div><h2 className="first">No Records</h2></div>
             ) : (
-                <div>
+                <div className="table">
                     <table className="tabledata">
                         <tbody>
                             {todos.map((task) => (

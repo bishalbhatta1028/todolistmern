@@ -1,10 +1,12 @@
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
 
 const TodosSchema = new Schema({
- 
-  title: String,
- 
+  task: {
+    type: String,
+    required: true,
+  },
 });
-const Todos = mongoose.model("todos",TodoSchema);
-module.exports=  Todos
+const Todos = mongoose.model("todos", TodosSchema);
+module.exports = Todos;
