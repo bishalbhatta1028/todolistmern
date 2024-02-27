@@ -21,3 +21,14 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
+.tabledata {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  text-align: left;
+}
+.data {
+  background: aqua;
+  width: 100px;
+}
